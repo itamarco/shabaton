@@ -110,33 +110,46 @@ export const StudiesSection = () => {
           </div>
         </div>
 
-        {/* Search Institute Link */}
-        <div className="mb-12">
+        {/* Search Institute Links */}
+        <div className="mb-12 grid md:grid-cols-2 gap-6">
           <a 
             href="https://www.kranoth.org.il/%d7%99%d7%a6%d7%99%d7%90%d7%94-%d7%9c%d7%94%d7%a9%d7%aa%d7%9c%d7%9e%d7%95%d7%aa/%d7%97%d7%99%d7%a4%d7%95%d7%a9-%d7%9e%d7%95%d7%a1%d7%93/"
             target="_blank"
             rel="noopener noreferrer"
-            className="block bg-gradient-to-l from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white p-8 rounded-3xl transition-all duration-300 hover:shadow-2xl hover:scale-[1.02] group"
+            className="block bg-gradient-to-l from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white p-6 rounded-3xl transition-all duration-300 hover:shadow-2xl hover:scale-[1.02] group"
           >
-            <div className="flex items-center justify-between">
-              <div className="flex items-center gap-4">
-                <div className="p-4 bg-white/20 rounded-2xl group-hover:bg-white/30 transition-colors">
-                  <Search size={32} className="text-white" />
-                </div>
-                <div>
-                  <h3 className="text-2xl font-bold mb-2 flex items-center gap-2">
-                    חיפוש מוסדות מאושרים ללימודים
-                    <ExternalLink size={20} className="group-hover:translate-x-[-4px] transition-transform" />
-                  </h3>
-                  <p className="text-blue-100 text-lg">
-                    מערכת חיפוש מוסדות לימוד מאושרים על ידי קרנות ההשתלמות - מצא את המוסד המתאים לך!
-                  </p>
-                </div>
+            <div className="flex items-center gap-4 mb-3">
+              <div className="p-3 bg-white/20 rounded-2xl group-hover:bg-white/30 transition-colors">
+                <Search size={28} className="text-white" />
               </div>
-              <div className="hidden md:block text-6xl opacity-20 group-hover:opacity-30 transition-opacity">
-                🎓
-              </div>
+              <h3 className="text-xl font-bold flex items-center gap-2">
+                חיפוש מוסדות - קרנות
+                <ExternalLink size={18} className="group-hover:translate-x-[-4px] transition-transform" />
+              </h3>
             </div>
+            <p className="text-blue-100 text-sm">
+              מערכת חיפוש מוסדות לימוד מאושרים על ידי קרנות ההשתלמות
+            </p>
+          </a>
+
+          <a 
+            href="https://www.shabaton.online/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block bg-gradient-to-l from-teal-600 to-teal-700 hover:from-teal-700 hover:to-teal-800 text-white p-6 rounded-3xl transition-all duration-300 hover:shadow-2xl hover:scale-[1.02] group"
+          >
+            <div className="flex items-center gap-4 mb-3">
+              <div className="p-3 bg-white/20 rounded-2xl group-hover:bg-white/30 transition-colors">
+                <GraduationCap size={28} className="text-white" />
+              </div>
+              <h3 className="text-xl font-bold flex items-center gap-2">
+                חיפוש קורסים - שבתון
+                <ExternalLink size={18} className="group-hover:translate-x-[-4px] transition-transform" />
+              </h3>
+            </div>
+            <p className="text-teal-100 text-sm">
+              קורסים והשתלמויות למורים, תעודות ותארים - פורטל שבתון
+            </p>
           </a>
         </div>
 
