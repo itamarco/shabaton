@@ -199,7 +199,7 @@ export const StudiesSection = () => {
               </div>
               <div className="flex items-start gap-3 border-r-4 border-orange-400 pr-4">
                 <span className="font-bold text-orange-600 text-xl">2.</span>
-                <p className="text-slate-700">שכר הלימוד משולם למוסד או לאדם פרטי שהוא <span className="font-bold">נוסק מורשה או נוסק פטור</span> ובחשבונות חותמת מוסד הלימודים</p>
+                <p className="text-slate-700">שכר הלימוד משולם למוסד או לאדם פרטי שהוא <span className="font-bold">עוסק מורשה או עוסק פטור</span> ובחשבונות חותמת מוסד הלימודים</p>
               </div>
               <div className="flex items-start gap-3 border-r-4 border-orange-400 pr-4">
                 <span className="font-bold text-orange-600 text-xl">3.</span>

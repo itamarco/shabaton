@@ -1,4 +1,5 @@
 import { Coins, CheckCircle, AlertTriangle, Briefcase, Calculator } from "lucide-react";
+import { ValueAttributionPopup } from "./ValueAttributionPopup";
 
 export const FinancialSection = () => {
   return (
@@ -82,6 +83,16 @@ export const FinancialSection = () => {
                   <span className="font-bold block text-slate-800">דמי הבראה וביגוד</span>
                   <span className="text-slate-600">משולמים על ידי הקרן</span>
                 </div>
+              </div>
+            </div>
+            
+            {/* Value Attribution Info */}
+            <div className="mt-6 pt-6 border-t border-slate-200">
+              <div className="bg-white p-4 rounded-xl">
+                <p className="text-sm text-slate-600 mb-2">
+                  💡 <span className="font-semibold text-slate-700">שימו לב:</span> חלק מההטבות עשויות להיות כפופות ל
+                  <ValueAttributionPopup />
+                </p>
               </div>
             </div>
           </div>
